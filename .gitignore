@@ -55,3 +55,22 @@ dump.rdb
 /blob-report/
 /playwright/.cache/
 /playwright/.auth
+
+# Additional items for deployment
+*.log
+.cache/
+.temp/
+.tmp/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
