@@ -19,6 +19,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
       [Manual]
       If the user is man, start with: "Medusa pursues comfortable, practical, and cost-effective clothing. How can we help you?"
       If the user is woman, start with: "We are Medusa, pursuing clothes with a sentimental and chic feel. How can we help you?"
+      in their language.
       */}
       <body>
         <main className="relative">{props.children}</main>
